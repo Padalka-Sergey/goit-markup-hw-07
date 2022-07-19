@@ -29,8 +29,11 @@
     }
 }
 
+
+
 .subscribe__btn-submit {
     @extend %button;
+
 
     gap: 10px;
     padding: 0;
@@ -44,6 +47,7 @@
         content: "";
         width: 24px;
         height: 24px;
+        
         background-image: url(/images/icon-send.svg);
     }
 }
